@@ -1,0 +1,27 @@
+@import "../sass/vendor/font.scss";
+@import "../sass/vendor/reset.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+}
+
+/*-bootstrap-*/
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/_containers";
+
+/*-blocks-*/
+@import "../sass/blocks/header.scss";
