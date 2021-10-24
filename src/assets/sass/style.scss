@@ -1,7 +1,8 @@
 @import "../sass/vendor/font.scss";
 @import "../sass/vendor/reset.scss";
 @import "../sass/vendor/slick.scss";
-
+@import "../sass/vendor/jquery.timepicker.min.scss";
+@import "../sass/vendor/datepicker.min.scss";
 * {
     box-sizing: border-box;
 }
@@ -34,3 +35,4 @@ body {
 @import "../sass/blocks/header.scss";
 @import "../sass/blocks/burger.scss";
 @import "../sass/blocks/main.scss";
+@import "../sass/blocks/compilation.scss";

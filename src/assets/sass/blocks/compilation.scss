@@ -1,0 +1,159 @@
+.compilation__wrapp {
+    max-width: 839px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.compilation__wrapp-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 140px;
+    background: url("../../assets/img/com-3.png") center center;
+    h3 {
+        font-size: 16px;
+        line-height: 12px;
+        color: #000;
+        padding-bottom: 8px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 16px;
+        color: #523208;
+    }
+    p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    span {
+        font-size: 25px;
+        line-height: 25px;
+        color: #523208;
+    }
+    select {
+        margin-top: 20px;
+        width: 250px;
+        border-radius: 10px;
+        border: 2px solid #d09c59;
+        padding: 7px 13px;
+        font-size: 16px;
+        line-height: 12px;
+        cursor: pointer;
+        color: #000;
+
+        -o-appearance: none;
+        -ms-appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url("../../assets/img/arrow.png") no-repeat right 15px center, #fff4ce;
+    }
+}
+
+.compilation__date {
+    width: 249px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: #fff4ce;
+    padding: 5px 13px 5px;
+    border-radius: 10px;
+    border: 2px solid #d09c59;
+    margin-top: 20px;
+
+    &::after {
+        content: url("../../assets/img/date.png");
+        position: absolute;
+        top: 5px;
+        left: 117px;
+    }
+
+    &::before {
+        content: url("../../assets/img/arrow.png");
+        position: absolute;
+        top: 5px;
+        right: 9px;
+    }
+}
+
+.time {
+    font-family: "Yandex Sans Text";
+    cursor: pointer;
+    width: 65px;
+    font-size: 16px;
+    line-height: 12px;
+    background: #fff4ce;
+    outline: none;
+    border: none;
+    color: #000;
+
+    &::placeholder {
+        font-family: "Yandex Sans Text";
+        font-size: 16px;
+        line-height: 12px;
+        color: #000;
+        padding: 5px 0 8px;
+    }
+}
+
+.ui-timepicker {
+    font-family: "Yandex Sans Text";
+    background: #fff4ce;
+    font-size: 16px;
+    line-height: 12px;
+}
+
+.date {
+    font-family: "Yandex Sans Text";
+    width: 90%;
+    font-size: 16px;
+    line-height: 12px;
+    color: #000;
+    background: #fff4ce;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &::placeholder {
+        font-family: "Yandex Sans Text";
+        font-size: 16px;
+        line-height: 12px;
+        color: #000;
+        padding: 5px 0 8px;
+    }
+}
+
+.compilation-one {
+    width: 280px;
+    align-items: flex-start;
+    padding-left: 18px;
+    background: url("../../assets/img/com-1.png") repeat center center;
+    position: relative;
+    &::before {
+        content: url("../../assets/img/com-1-1.png");
+        position: absolute;
+        right: -32px;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+.compilation-two {
+    width: 350px;
+    align-items: flex-start;
+    padding-left: 50px;
+    background: url("../../assets/img/com-2.png") repeat center center;
+    position: relative;
+    &::before {
+        content: url("../../assets/img/com-2-2.png");
+        position: absolute;
+        right: -32px;
+        top: 0;
+    }
+}
