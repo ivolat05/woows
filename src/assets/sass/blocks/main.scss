@@ -1,0 +1,111 @@
+.main__container {
+    padding: 40px 0;
+    background: url("../../assets/img/m-1.png") no-repeat left 0 top -50px,
+        url("../../assets/img/m-2.png") no-repeat right 5% top -30px,
+        url("../../assets/img/m-3.png") no-repeat left 80% top -16%;
+}
+
+.main__title {
+    max-width: 490px;
+    margin: 0 auto;
+    color: #fa4c07;
+    h2 {
+        font-size: 33px;
+        font-weight: normal;
+        line-height: 14px;
+    }
+    h1 {
+        font-weight: normal;
+        font-size: 53px;
+        margin-top: -10px;
+        padding-bottom: 15px;
+    }
+    p {
+        font-size: 24px;
+        line-height: 10px;
+        color: #000000;
+    }
+}
+
+.slaider__one {
+    background: rgba(0, 0, 0, 0);
+    max-width: 883px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.slaider__one-box {
+    background: rgba(0, 0, 0, 0);
+    width: 228px;
+    img {
+        padding-bottom: 10px;
+    }
+    h3 {
+        font-size: 13px;
+        line-height: 14px;
+        color: #b04408;
+        padding-bottom: 25px;
+        padding-left: 40px;
+        position: relative;
+        &::before {
+            content: "1";
+            font-size: 20px;
+            line-height: 16px;
+            position: absolute;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            border-radius: 50%;
+            background-image: linear-gradient(35deg, rgb(252, 78, 7) 0%, rgb(253, 159, 10) 100%);
+            left: -3px;
+            top: -25%;
+            transform: translateY(20%);
+        }
+        &::after {
+            content: url("../../assets/img/main_line.png");
+            position: absolute;
+            right: -55px;
+            top: 7px;
+        }
+    }
+    p {
+        font-size: 13px;
+        line-height: 14px;
+        color: #242424;
+        padding-bottom: 15px;
+    }
+}
+
+.slaider__one-box-two {
+    h3 {
+        &::before {
+            content: "2";
+            left: -3px;
+            top: 0;
+            transform: translateY(0);
+        }
+        &::after {
+            content: url("../../assets/img/main_line-two.png");
+            position: absolute;
+            right: -55px;
+            top: 7px;
+        }
+    }
+}
+
+.slaider__one-box-three {
+    h3 {
+        &::before {
+            content: "3";
+            left: -3px;
+            top: 0;
+            transform: translateY(0);
+        }
+        &::after {
+            content: "";
+        }
+    }
+}
