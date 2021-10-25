@@ -32,6 +32,7 @@ body {
 @import "../../../node_modules/bootstrap/scss/_containers";
 
 /*-blocks-*/
+@import "../sass/blocks/page.scss";
 @import "../sass/blocks/header.scss";
 @import "../sass/blocks/burger.scss";
 @import "../sass/blocks/main.scss";
@@ -42,3 +43,4 @@ body {
 @import "../sass/blocks/choice.scss";
 @import "../sass/blocks/jobs.scss";
 @import "../sass/blocks/footer.scss";
+@import "../sass/blocks/catalog.scss";

@@ -1,0 +1,51 @@
+.catalog {
+    padding: 34px 0 93px;
+}
+
+.catalog__wrapp {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 35px 0;
+
+    h3 {
+        font-weight: normal;
+        font-size: 29px;
+        line-height: 29px;
+        text-decoration: underline;
+        color: #000;
+        padding-bottom: 25px;
+    }
+}
+
+.catalog__wrapp-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.catalog__label {
+    position: relative;
+    cursor: pointer;
+    p {
+        font-size: 14px;
+        line-height: 41px;
+        color: #000;
+        &::before {
+            content: url("../../assets/img/check.png");
+            position: relative;
+            top: 3px;
+            padding-right: 5px;
+        }
+    }
+}
+
+.catalog__label-check {
+    position: absolute;
+    opacity: 0;
+}
+
+.catalog__label-check:checked + p {
+    color: #d56409;
+    text-decoration: underline;
+    &::before {
+        content: url("../../assets/img/check-active.png");
+    }
+}

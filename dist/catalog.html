@@ -16,157 +16,468 @@
     <link rel="stylesheet" href="assets/css/style.min.css"></head>
 
 <body>
-    
-    <header class="header">
-    
-        <div class="container header__container">
-            <div class="header__wrapp">
-                <a href="#" class="logo">
-                    <img src="./assets/img/logo.png" alt="">
-                </a>
-                <div class="header__wrapp-box">
-                    <a href="#" class="header__map map">
-                        Екатеринбург
+    <div class="page">
+        <header class="header">
+        
+            <div class="container header__container">
+                <div class="header__wrapp">
+                    <a href="#" class="logo">
+                        <img src="./assets/img/logo.png" alt="">
                     </a>
-                    <a href="#" class="header__prof prof">
-                        Мой профиль
+                    <div class="header__wrapp-box">
+                        <a href="#" class="header__map map">
+                            Екатеринбург
+                        </a>
+                        <a href="#" class="header__prof prof">
+                            Мой профиль
+                            <span>
+                                2
+                            </span>
+                        </a>
+                    </div>
+                    <div class="header__wrapp-tell">
+                        <a href="tel:83432271600" class="header__tell">
+                            <span>8 (343)</span> 227-16-00
+                        </a>
+                        <a href="#" class="header__tell-link">
+                            Заказать звонок
+                        </a>
+                    </div>
+        
+                    <div class="menu__burger">
+                        <span class='menu__burger-line'></span>
+                    </div>
+                </div>
+                <div class="header__inner">
+                    <div class="header__inner-box">
+                        <a href="#" class="header__inner-link header__inner-one">
+                            Выбрать<br>
+                            актера
+                        </a>
+                        <a href="#" class="header__inner-link header__inner-two">
+                            Последние<br>
+                            подаренные эмоции
+                        </a>
+                        <a href="#" class="header__inner-link header__inner-three">
+                            Наши <br>
+                            актеры
+                        </a>
+                        <a href="#" class="header__inner-link header__inner-four">
+                            Стать<br>
+                            актером
+                        </a>
+                    </div>
+                    <form action="/" class="header__form">
+                        <input type="search" class="header__form-input" placeholder="Для кого сюрприз?  ">
+                        <button class="header__form-btn">
+                            <img src="./assets/img/search.png" alt="">
+                        </button>
+                    </form>
+                </div>
+        
+            </div>
+        </header>    <section class='catalog'>
+            <div class="container">
+                <div class="compilation__wrapp">
+                    <div class="compilation__wrapp-inner compilation-one">
+                        <h3>
+                            Для кого сюрприз
+                        </h3>
+                        <p>
+                            выберите кому желаете сделать сюрприз
+                        </p>
+                        <select>
+                            <option>
+                                Сестре
+                            </option>
+                            <option>
+                                Сестре
+                            </option>
+                            <option>
+                                Сестре
+                            </option>
+                        </select>
+                    </div>
+                    <div class="compilation__wrapp-inner compilation-two">
+                        <h3>
+                            Когда нужен сюрприз
+                        </h3>
+                        <p>
+                            укажите, дату сюрприза
+                        </p>
+                        <div class="compilation__date">
+                            <input class='date datepicker-here' type="text" placeholder="22.12.2021">
+                            <input class='time' type="text" placeholder="18.40">
+                        </div>
+                    </div>
+                    <div class="compilation__wrapp-inner">
+                        <a href='#'>Подобрать<br>
+                            актера</a>
                         <span>
-                            2
+                            из 9320
                         </span>
-                    </a>
+                    </div>
                 </div>
-                <div class="header__wrapp-tell">
-                    <a href="tel:83432271600" class="header__tell">
-                        <span>8 (343)</span> 227-16-00
-                    </a>
-                    <a href="#" class="header__tell-link">
-                        Заказать звонок
-                    </a>
+                <div class="catalog__wrapp">
+                    <h3>
+                        Выберайте персонажа
+                    </h3>
+                    <div class="catalog__wrapp-inner">
+                        <div class="catalog__wrapp-list">
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Мужчина в костюме
+                                </p>
+                            </label>
+        
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Девушка в деловом костюме
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Военный
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Рокер
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Девушка врач
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Стриптизер
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Бодибилдер
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Стерва в коженке
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Спецназ
+                                </p>
+                            </label>
+                        </div>
+                        <div class="catalog__wrapp-list">
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    ДПС
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Вульгарная дама
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Тайный поклонник (ца)
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Серьезный человек
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Пожарный
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Клоун оно
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Студентка
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Ботаник
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Купидон
+                                </p>
+                            </label>
+        
+                        </div>
+                        <div class='catalog__wrapp-list'>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Хип хоп щик щица
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Рэпер
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Мишка Тэдди
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Сантехник
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Музыкант
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Телохранитель
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Стюардесса
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Шоумен
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Строитель
+                                </p>
+                            </label>
+        
+                        </div>
+                        <div class="catalog__wrapp-list">
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Сосед / соседка
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    ВДВ шник
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Гитарист
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Фокусник
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Папуас
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Невеста
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Пародия: знаменитостей
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    VIP поздравление
+                                </p>
+                            </label>
+                            <label class="catalog__label">
+                                <input class="catalog__label-check" type="checkbox">
+                                <p>
+                                    Телеканал
+                                </p>
+                            </label>
+        
+                        </div>
+                    </div>
                 </div>
-    
-                <div class="menu__burger">
-                    <span class='menu__burger-line'></span>
+        </section>    <section class="jobs">
+            <div class="container jobs__conteiner">
+                <div class="jobs__conteiner-box">
+                    <img src="./assets/img/jobs-1.png" alt="">
+                    <div class="jobs__box-inner">
+                        <span>
+                            твоя работа мечты
+                        </span>
+                        <h3>
+                            СТАНЬ АКТЕРОМ!
+                        </h3>
+                        <p>
+                            Дари эмоции людям
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="header__inner">
-                <div class="header__inner-box">
-                    <a href="#" class="header__inner-link header__inner-one">
-                        Выбрать<br>
-                        актера
-                    </a>
-                    <a href="#" class="header__inner-link header__inner-two">
-                        Последние<br>
-                        подаренные эмоции
-                    </a>
-                    <a href="#" class="header__inner-link header__inner-three">
-                        Наши <br>
-                        актеры
-                    </a>
-                    <a href="#" class="header__inner-link header__inner-four">
-                        Стать<br>
-                        актером
-                    </a>
-                </div>
-                <form action="/" class="header__form">
-                    <input type="search" class="header__form-input" placeholder="Для кого сюрприз?  ">
-                    <button class="header__form-btn">
-                        <img src="./assets/img/search.png" alt="">
+                <div class="jobs__conteiner-box-two">
+                    <p>
+                        Работай по своему графику
+                    </p>
+                    <p>
+                        Создавай свои образы
+                    </p>
+                    <button class="jobs__btn">
+                        Подробнее
                     </button>
-                </form>
-            </div>
-    
-        </div>
-    </header><div class="footer">
-        <div class="container">
-            <div class="footer__conteiner">
-                <div class="footer__wrapp">
-                    <h3>
-                        Сервис WOOWS
-                    </h3>
-                    <div class="footer__wrapp-inner">
-                        <a href="#">
-                            О сервисе
-                        </a>
-                        <a href="#">
-                            Доставка подарка
-                        </a>
-                        <a href="#">
-                            Оплата заказа
-                        </a>
-                        <a href="#">
-                            Возврат подарка
-                        </a>
-                    </div>
-                    <div class="footer__wrapp-inner">
-                        <a href="#">
-                            Наши контакты
-                        </a>
-                        <a href="#">
-                            Партнерам
-                        </a>
-                        <a href="#">
-                            Стать актером
-                        </a>
-                        <a href="#">
-                            Правовая информация
-                        </a>
-                    </div>
                 </div>
-    
-                <div class="footer__wrapp">
-                    <h3>
-                        Контакты
-                    </h3>
-                    <div class="footer__wrapp-box">
-                        <a href="mailto:info@woows.ru">info@woows.ru</a>
-                        <p>Офис: г.Екатеринбург, ул.Красноармейская 92а, 129</p>
-                        <p>Часы приема: Пн-Вс 1000 - 2000</p>
-                    </div>
-                    <div class="footer__wrapp-contact">
-                        <a href="tel:83432271600"><span>8 (343)</span> 227-16-00</a>
-                        <div class="footer__contact">
-                            <a class='contact-tell' href="#">Заказать звонок </a>
-                            <a class='contact-mail' href="#">
-                                Написать сообщение
+                <div class="jobs__conteiner-box-three">
+                    <img class='jobs__three-img-one' src="./assets/img/jobs-2.png" alt="">
+                    <img class='jobs__three-img-two' src="./assets/img/jobs-4.png" alt="">
+                    <img class='jobs__three-img-three' src="./assets/img/jobs-3.png" alt="">
+                </div>
+            </div>
+        </section>    <div class="footer">
+            <div class="container">
+                <div class="footer__conteiner">
+                    <div class="footer__wrapp">
+                        <h3>
+                            Сервис WOOWS
+                        </h3>
+                        <div class="footer__wrapp-inner">
+                            <a href="#">
+                                О сервисе
+                            </a>
+                            <a href="#">
+                                Доставка подарка
+                            </a>
+                            <a href="#">
+                                Оплата заказа
+                            </a>
+                            <a href="#">
+                                Возврат подарка
+                            </a>
+                        </div>
+                        <div class="footer__wrapp-inner">
+                            <a href="#">
+                                Наши контакты
+                            </a>
+                            <a href="#">
+                                Партнерам
+                            </a>
+                            <a href="#">
+                                Стать актером
+                            </a>
+                            <a href="#">
+                                Правовая информация
                             </a>
                         </div>
                     </div>
-                </div>
-    
-                <div class="footer__wrapp-two">
-                    <div class="footer__two-inner">
-                        <div class="footer__inner-box">
-                            <h3>
-                                Статус заказа
-                            </h3>
-                            <p>
-                                укажите номер, <br>
-                                и узнайте статус
-                            </p>
+        
+                    <div class="footer__wrapp">
+                        <h3>
+                            Контакты
+                        </h3>
+                        <div class="footer__wrapp-box">
+                            <a href="mailto:info@woows.ru">info@woows.ru</a>
+                            <p>Офис: г.Екатеринбург, ул.Красноармейская 92а, 129</p>
+                            <p>Часы приема: Пн-Вс 1000 - 2000</p>
                         </div>
-                        <img class="footer__two-img" src="./assets/img/balls.png" alt="">
+                        <div class="footer__wrapp-contact">
+                            <a href="tel:83432271600"><span>8 (343)</span> 227-16-00</a>
+                            <div class="footer__contact">
+                                <a class='contact-tell' href="#">Заказать звонок </a>
+                                <a class='contact-mail' href="#">
+                                    Написать сообщение
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="footer-status">
-                        <input class='footer__status-input' type="text" placeholder="номер заказа">
-                        <button class='footer__btn'>
-                            <img src="./assets/img/footer__btn.png" alt="">
-                        </button>
+        
+                    <div class="footer__wrapp-two">
+                        <div class="footer__two-inner">
+                            <div class="footer__inner-box">
+                                <h3>
+                                    Статус заказа
+                                </h3>
+                                <p>
+                                    укажите номер, <br>
+                                    и узнайте статус
+                                </p>
+                            </div>
+                            <img class="footer__two-img" src="./assets/img/balls.png" alt="">
+                        </div>
+                        <div class="footer-status">
+                            <input class='footer__status-input' type="text" placeholder="номер заказа">
+                            <button class='footer__btn'>
+                                <img src="./assets/img/footer__btn.png" alt="">
+                            </button>
+                        </div>
+        
+                        <img class='footer__two-img-two' src="./assets/img/box.png" alt="">
                     </div>
-    
-                    <img class='footer__two-img-two' src="./assets/img/box.png" alt="">
+                </div>
+        
+                <div class="copyright">
+                    <p>
+                        © 2020г. - Woows.ru (Ваус) дарим искренние эмоции дорогим людям.
+                    </p>
+                    <p>
+                        Полное или частично копирование материала запрещено.
+                    </p>
                 </div>
             </div>
-    
-            <div class="copyright">
-                <p>
-                    © 2020г. - Woows.ru (Ваус) дарим искренние эмоции дорогим людям.
-                </p>
-                <p>
-                    Полное или частично копирование материала запрещено.
-                </p>
-            </div>
-        </div>
-    </div>    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        </div></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/js/app.min.js"></script>
 </body>
 
