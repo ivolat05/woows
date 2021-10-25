@@ -1,0 +1,46 @@
+.choice {
+    padding-top: 30px;
+}
+.choice__wrapp {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.choice__wrapp {
+    h3 {
+        font-weight: normal;
+        line-height: 29px;
+        font-size: 29px;
+        color: #000;
+        text-decoration: underline;
+        padding-bottom: 35px;
+    }
+}
+
+.choice__wrapp-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.choice__inner-box {
+    a {
+        display: block;
+
+        font-size: 14px;
+        line-height: 41px;
+        color: #000;
+    }
+}
+
+.choice__wrapp-box {
+    h3 {
+        padding-bottom: 5px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+}

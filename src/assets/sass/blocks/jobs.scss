@@ -1,0 +1,106 @@
+.jobs {
+    background: url("../../assets/img/jobs__arrow.svg") no-repeat center bottom,
+        url("../../assets/img/job__back.png") no-repeat center top 50px,
+        linear-gradient(90deg, rgb(228, 131, 13) 0%, rgb(255, 199, 79) 100%) repeat-x center top 40px;
+}
+
+.jobs__conteiner {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.jobs__conteiner-box {
+    padding-right: 90px;
+    display: flex;
+    align-items: end;
+    span {
+        position: relative;
+        left: -20px;
+        display: inline-block;
+        padding: 3px 5px;
+        background: #d61d39;
+        color: #fff;
+        transform: rotate(-3deg);
+    }
+
+    h3 {
+        padding-top: 5px;
+        font-family: "Comic Sans MS pixel rus eng";
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 33px;
+        color: #fff;
+
+        text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.42);
+    }
+
+    p {
+        font-family: "Verdana";
+        font-size: 19px;
+        line-height: 21px;
+        color: #fff;
+        position: relative;
+        padding-left: 40px;
+        &::before {
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 20px;
+            background: #fff;
+            top: 50%;
+            left: 12px;
+        }
+    }
+}
+.jobs__box-inner {
+    padding-left: 40px;
+    padding-bottom: 17px;
+}
+.jobs__conteiner-box-two {
+    padding-right: 10px;
+    padding-bottom: 15px;
+    p {
+        font-size: 11px;
+        line-height: 16px;
+        color: #fff;
+        &::before {
+            content: url("../../assets/img/bbr.svg");
+            position: relative;
+            top: 3px;
+            padding-right: 4px;
+        }
+    }
+}
+
+.jobs__btn {
+    font-family: "Yandex Sans Text";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 8px;
+
+    border-radius: 4px;
+    background-image: linear-gradient(90deg, rgb(228, 169, 10) 0%, rgb(244, 215, 57) 100%);
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.24);
+
+    padding: 12px 34px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.jobs__conteiner-box-three {
+    display: flex;
+    img {
+        position: relative;
+    }
+}
+.jobs__three-img-two {
+    left: -10px;
+}
+
+.jobs__three-img-three {
+    left: -15px;
+}
