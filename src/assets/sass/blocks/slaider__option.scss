@@ -1,0 +1,21 @@
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 31px 0;
+    button {
+        margin: 4px;
+        text-indent: -9999px;
+        width: 14px;
+        height: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: #fec940;
+    }
+    .slick-active {
+        button {
+            background: #e27811;
+        }
+    }
+}

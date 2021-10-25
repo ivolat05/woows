@@ -1,0 +1,119 @@
+.review {
+    background: url("../../assets/img/rew.png") repeat-x center bottom;
+    padding: 60px 0 30px;
+}
+.review__container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.review__wrapp {
+    h3 {
+        font-weight: normal;
+        font-size: 29px;
+        line-height: 29px;
+        color: #000;
+    }
+
+    a {
+        display: block;
+        font-weight: normal;
+        font-size: 29px;
+        line-height: 29px;
+        text-decoration: underline;
+        color: #e27811;
+        padding-bottom: 21px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 25px;
+        color: #000;
+        padding-bottom: 40px;
+    }
+    &::after {
+        content: url("../../assets/img/rew__arrow.svg");
+        position: relative;
+        top: -70px;
+        padding-right: 80px;
+    }
+}
+.btn {
+    padding: 16px 100px 15px 66px;
+    background: #fec940;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.slaider__two-box {
+    display: block;
+    position: relative;
+    width: 195px;
+    height: 195px;
+    margin: 7px;
+    img {
+        width: 195px;
+        height: 195px;
+    }
+
+    &:hover .slaider__two-fon {
+        opacity: 1;
+    }
+}
+
+.slaider__two-inner {
+    width: 100%;
+    padding: 10px 13px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.62);
+
+    z-index: 2;
+    h3 {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 8px;
+        color: #fff;
+    }
+    span {
+        padding: 3px 8px 3px 4px;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 8px;
+
+        position: absolute;
+        right: 5px;
+        top: -5px;
+        background: rgba(245, 201, 64, 0.79);
+        border-radius: 3px;
+    }
+}
+
+.slaider__two-fon {
+    position: absolute;
+    width: 196px;
+    height: 199px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(245, 201, 64, 0.5);
+    z-index: 1;
+    opacity: 0;
+    transition: 0.4s;
+    img {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+.slaider__two {
+    max-width: 610px;
+    overflow: hidden;
+}
