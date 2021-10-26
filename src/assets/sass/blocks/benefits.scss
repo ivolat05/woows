@@ -1,0 +1,54 @@
+.benefits {
+    background: url("../../assets/img/benefit.png") repeat-x center top;
+}
+
+.benefits__title {
+    width: 275px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+
+    font-family: "a_AvanteBs";
+    font-size: 33px;
+    line-height: 33px;
+    position: relative;
+    span {
+        color: #e6940f;
+    }
+    &::after {
+        content: url("../../assets/img/ben-1.png");
+        position: absolute;
+        right: -200px;
+        top: 0;
+    }
+    &::before {
+        content: url("../../assets/img/ben-2.png");
+        position: absolute;
+        left: -202px;
+        top: 0;
+    }
+}
+.benefits__wrapp {
+    max-width: 890px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefits__wrapp-inner {
+    width: 370px;
+    padding-bottom: 30px;
+    img {
+        padding-bottom: 11px;
+    }
+    h3 {
+        font-family: "a_AvanteBs";
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 3px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

@@ -1,6 +1,7 @@
 .choice {
     padding-top: 30px;
 }
+
 .choice__wrapp {
     max-width: 870px;
     margin: 0 auto;
@@ -14,6 +15,15 @@
         color: #000;
         text-decoration: underline;
         padding-bottom: 35px;
+    }
+}
+
+.choice__wrapp-2 {
+    max-width: 970px;
+    h3 {
+        font-family: "a_AvanteBs";
+        font-weight: bold;
+        text-decoration: none;
     }
 }
 
@@ -31,6 +41,11 @@
         font-size: 14px;
         line-height: 41px;
         color: #000;
+        transition: 0.4s;
+        &:hover {
+            text-decoration: underline;
+            color: #d56409;
+        }
     }
 }
 

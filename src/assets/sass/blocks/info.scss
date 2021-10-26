@@ -1,0 +1,60 @@
+.info {
+    background: url("../../assets/img/info-1.png") no-repeat right 35% top,
+        url("../../assets/img/info-2.png") no-repeat bottom 70px left 15%,
+        url("../../assets/img/info-3.png") no-repeat center right 10%;
+}
+
+.info__wrapp {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__wrapp-inner {
+    max-width: 460px;
+    h3 {
+        font-size: 41px;
+        line-height: 12px;
+        padding-bottom: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 14px;
+    }
+
+    h4 {
+        font-family: "a_AvanteBs";
+        font-size: 33px;
+        line-height: 20px;
+    }
+    span {
+        font-family: "Yandex Sans Text";
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 30px;
+    }
+}
+
+.info-content {
+    display: block;
+    margin: 13px 0 23px;
+    padding: 10px 30px 10px 49px;
+    background: rgba(169, 119, 36, 0.06);
+
+    font-size: 14px;
+    line-height: 20px;
+    color: #866630;
+
+    position: relative;
+    &::after {
+        content: url("../../assets/img/i.png");
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+    }
+}
