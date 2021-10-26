@@ -47,3 +47,41 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "a_AvanteBs";
+    src: url("../../assets/font/AAvanteBsExtraBold.eot");
+    src: url("../../assets/font/AAvanteBsExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("../../assets/font/AAvanteBsExtraBold.woff2") format("woff2"),
+        url("../../assets/font/AAvanteBsExtraBold.woff") format("woff"),
+        url("../../assets/font/AAvanteBsExtraBold.ttf") format("truetype"),
+        url("../../assets/font/AAvanteBsExtraBold.svg#AAvanteBsExtraBold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cleanvertising";
+    src: url("../../assets/font/Cleanvertising-Black.eot");
+    src: url("../../assets/font/Cleanvertising-Black.eot?#iefix") format("embedded-opentype"),
+        url("../../assets/font/Cleanvertising-Black.woff2") format("woff2"),
+        url("../../assets/font/Cleanvertising-Black.woff") format("woff"),
+        url("../../assets/font/Cleanvertising-Black.ttf") format("truetype"),
+        url("../../assets/font/Cleanvertising-Black.svg#Cleanvertising-Black") format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: url("../../assets/font/ArialMT.eot");
+    src: url("../../assets/font/ArialMT.eot?#iefix") format("embedded-opentype"),
+        url("../../assets/font/ArialMT.woff2") format("woff2"), url("../../assets/font/ArialMT.woff") format("woff"),
+        url("../../assets/font/ArialMT.ttf") format("truetype"),
+        url("../../assets/font/ArialMT.svg#ArialMT") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
