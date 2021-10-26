@@ -8,4 +8,134 @@
     background: rgba(169, 119, 36, 0.06);
     border-radius: 30px;
     padding: 24px 55px 21px 40px;
+    h3 {
+        font-family: "a_AvanteBs";
+        font-size: 33px;
+        line-height: 20px;
+        padding-bottom: 18px;
+    }
+
+    h4 {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        position: relative;
+        top: 9px;
+        left: 20px;
+    }
+}
+
+.regist__wrapp-inner {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 34px;
+}
+
+.regist__wrapp-col {
+    width: 363px;
+    input,
+    select {
+        width: 100%;
+        border: 1px solid #dbd0cb;
+        outline: none;
+        border-radius: 19px;
+        padding: 8px 20px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #64491b;
+        cursor: pointer;
+        appearance: none;
+        &::placeholder {
+            color: #dbd0cb;
+        }
+    }
+
+    select {
+        background: url("../../assets/img/reg-arrow.svg") no-repeat top 50% right 16px, #fff;
+    }
+}
+
+.regist__wrapp-col-2 {
+    width: 418px;
+    textarea {
+        width: 100%;
+        border: 1px solid #dbd0cb;
+        outline: none;
+        border-radius: 10px;
+        padding: 15px 20px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #64491b;
+        height: 112px;
+        resize: none;
+        margin-bottom: 20px;
+        &::placeholder {
+            color: #dbd0cb;
+        }
+    }
+}
+
+.reg-btn {
+    padding: 10px 73px 12px 59px;
+    border: none;
+    background: #e6940f;
+    border-radius: 21px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.regist__col-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+        font-family: "Yandex Sans Text";
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 2px;
+    }
+    p {
+        font-family: "Yandex Sans Text";
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+}
+
+.load {
+    font-size: 12px;
+    line-height: 20px;
+    color: #8d7a58;
+    padding: 4px 15px;
+    border: 2px solid #8d7a58;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+
+.regist-content {
+    font-size: 10px;
+    line-height: 12px;
+    color: #7b7775;
+    padding-left: 45px;
+    position: relative;
+    a {
+        text-decoration: underline;
+        color: #7b7775;
+    }
+    &::before {
+        content: url("../../assets/img/reg-icon.svg");
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 5px;
+    }
 }
