@@ -1,0 +1,99 @@
+.main-2 {
+    padding: 30px 0 68px;
+    overflow: hidden;
+    background: url("../../assets/img/m_back-1.png") no-repeat top 7% right 36%,
+        url("../../assets/img/m_back-2.png") no-repeat bottom 65% center,
+        url("../../assets/img/m_back-3.png") no-repeat bottom 10% center,
+        url("../../assets/img/m_back-4.png") no-repeat top 16% left 23%,
+        url("../../assets/img/m_back-5.png") no-repeat center left 12%, #fcf7e2;
+}
+.main-2__wrapp-box {
+    h1 {
+        font-size: 50px;
+        line-height: 45px;
+        color: #000;
+        padding-bottom: 38px;
+    }
+    span {
+        color: #f09800;
+    }
+}
+
+.btn-reg {
+    font-family: "Arial";
+    font-size: 21px;
+    line-height: 22px;
+    padding: 17px 70px;
+    border-radius: 50px;
+    color: #fff;
+    border: 1px solid rgb(224, 146, 49);
+
+    background-image: linear-gradient(90deg, rgb(229, 145, 16) 0%, rgb(255, 199, 0) 100%);
+}
+
+.main-2__wrapp {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-2__wrapp-inner {
+    position: relative;
+    &::after {
+        content: url("../../assets/img/mask.png");
+        position: absolute;
+        top: 67px;
+        right: 39px;
+    }
+    &::before {
+        content: url("../../assets/img/mask-2.png");
+        position: absolute;
+        bottom: 172px;
+        right: -186px;
+    }
+}
+
+.main-2__inner-1,
+.main-2__inner-2,
+.main-2__inner-3 {
+    width: 211px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 8px;
+    border-radius: 20px;
+    p {
+        font-size: 15px;
+        line-height: 12px;
+        padding-left: 7px;
+    }
+    span {
+        font-size: 11px;
+        color: #e52428;
+    }
+}
+
+.main-2__inner-1 {
+    top: 194px;
+    right: -36px;
+}
+
+.main-2__inner-2 {
+    bottom: 119px;
+    left: -20px;
+    justify-content: end;
+    p {
+        padding-left: 0;
+        padding-right: 7px;
+    }
+}
+
+.main-2__inner-3 {
+    width: 182px;
+    border-radius: 8px;
+    bottom: 37px;
+    right: 98px;
+}
