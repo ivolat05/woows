@@ -5,7 +5,7 @@
 .catalog__wrapp {
     max-width: 840px;
     margin: 0 auto;
-    padding: 35px 0;
+    padding-top: 35px;
 
     h3 {
         font-weight: normal;
@@ -49,13 +49,16 @@
         content: url("../../assets/img/check-active.png");
     }
 }
-
+.catalog__card {
+    margin-top: 30px;
+}
 .catalog__card-box {
     display: flex;
     align-items: center;
     background: #fff;
     border-radius: 5px;
     padding: 10px 5px;
+    margin-bottom: 20px;
 }
 
 .catalog__row-1 {
@@ -75,7 +78,7 @@
     }
 }
 .catalog__col-2 {
-    max-width: 260px;
+    max-width: 280px;
     border-left: 1px solid #e2e2e2;
     padding-left: 20px;
 }
@@ -139,6 +142,67 @@
 }
 
 .catalog__row-2 {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    border-radius: 5px;
+    background: #ffecbe;
+    padding: 0 0 0 19px;
+}
+
+.catalog__content {
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    img {
+        padding-bottom: 5px;
+    }
+    p {
+        font-size: 10px;
+        line-height: 8px;
+        color: #8f5408;
+        text-align: center;
+    }
+    &::after {
+        content: url("../../assets/img/line.png");
+        position: absolute;
+        right: -10px;
+        top: 0;
+    }
+    &:nth-last-child(3)::after {
+        content: "";
+    }
+}
+
+.catalog__prace {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 15px;
+    color: #000;
+    position: relative;
+    right: -40px;
+    margin-left: -50px;
+
+    background: url("../../assets/img/catalog-pg-2.png") no-repeat center left 1px,
+        url("../../assets/img/catalog-pg-2.png") no-repeat center left 2px,
+        url("../../assets/img/catalog-pr.png") no-repeat center center;
+}
+
+.catalog__choice {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 12px;
+    color: #000;
+    background: url("../../assets/img/catalog-ch.png") no-repeat center center, #fff;
 }
