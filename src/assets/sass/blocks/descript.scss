@@ -1,0 +1,44 @@
+.descript {
+    padding: 55px 0 101px;
+}
+
+.descript__wrapp {
+    max-width: 1015px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.descript__wrapp-inner {
+    h3 {
+        font-family: "Cleanvertising";
+        font-size: 33px;
+        line-height: 33px;
+        color: #000;
+        padding-bottom: 23px;
+    }
+    span {
+        color: #e6940f;
+    }
+    p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+}
+
+.descript__img {
+    display: flex;
+    img {
+        position: relative;
+    }
+}
+.descript__img-2 {
+    top: 40px;
+}
+
+.descript__img-1 {
+    left: 105px;
+    margin-left: -70px;
+    z-index: 1;
+}
