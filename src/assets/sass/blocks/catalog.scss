@@ -24,7 +24,8 @@
 .catalog__label {
     position: relative;
     cursor: pointer;
-    p {
+    span {
+        display: block;
         font-size: 14px;
         line-height: 41px;
         color: #000;
@@ -42,7 +43,7 @@
     opacity: 0;
 }
 
-.catalog__label-check:checked + p {
+.catalog__label-check:checked + span {
     color: #d56409;
     text-decoration: underline;
     &::before {
@@ -170,7 +171,8 @@
         content: url("../../assets/img/line.png");
         position: absolute;
         right: -10px;
-        top: 0;
+        top: 50%;
+        transform: translateY(-50%);
     }
     &:nth-last-child(3)::after {
         content: "";

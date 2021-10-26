@@ -4,13 +4,27 @@
 .header-2__wrapp {
     max-width: 745px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu-2 {
     display: none;
 }
 
+.nav__list {
+    width: 425px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav__list-inner {
     a {
+        font-family: "Cleanvertising";
+        font-size: 16px;
+        line-height: 12px;
+        color: #000;
     }
 }
