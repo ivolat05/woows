@@ -1,8 +1,9 @@
 .mob__menu {
     background: #f7efc6;
-    width: 100%;
+    box-shadow: -14px -14px 20px rgba(244, 124, 70, 0.8);
+    width: 320px;
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     z-index: -3333333;
     overflow-y: auto;
@@ -69,11 +70,15 @@
         top: 15px;
         left: 0;
     }
-    &:nth-last-child(1)::after {
-        content: "";
-    }
 }
 
+.mob__list-inner:nth-last-child(1) {
+    a {
+        &::after {
+            content: "";
+        }
+    }
+}
 .mob__footer {
     padding: 18px 34px 28px 34px;
     background: url("../../assets/img/mob-back.png") repeat-x center bottom,
@@ -113,5 +118,41 @@
     a {
         font-size: 12px;
         color: #47380c;
+    }
+}
+
+.mob__input {
+    padding: 16px 33px;
+    h3 {
+        font-size: 16px;
+        line-height: 25px;
+        color: #47380c;
+        padding-bottom: 9px;
+    }
+}
+
+.mob__input-inner {
+    position: relative;
+    input {
+        width: 100%;
+        padding: 5px 40px 5px 11px;
+        font-size: 16px;
+        line-height: 25px;
+        border-radius: 10px;
+        border: 1px solid #786d4d;
+        background: none;
+        outline: none;
+        &::placeholder {
+            color: #a19c8e;
+        }
+    }
+    button {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
 }

@@ -97,7 +97,7 @@ $('.menu__burger').click(function () {
     });
 
     function initScrollbar($selector, options) {
-        if ($(window).width() > 770) {
+        if ($(window).width() > 970) {
             if ($selector.data('mCS')) $selector.mCustomScrollbar('destroy');
         } else {
             $selector.mCustomScrollbar(options || {});

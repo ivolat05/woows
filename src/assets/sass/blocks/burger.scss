@@ -80,6 +80,15 @@
 .look {
     overflow: hidden;
 }
+.burger__active {
+    &::after {
+        width: 29px;
+        left: 0;
+    }
+    &::before {
+        top: 13px;
+    }
+}
 /*-media-*/
 @media (max-width: 767px) {
     .menu-2 {
@@ -91,13 +100,14 @@
             left: 6px;
         }
     }
+
     .burger__active {
         &::after {
             width: 29px;
             left: 0;
         }
         &::before {
-            top: 12px;
+            top: 13px;
         }
     }
 }

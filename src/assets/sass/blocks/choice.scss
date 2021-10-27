@@ -60,7 +60,7 @@
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 969px) {
     .choice__wrapp-2 {
         h3 {
             font-family: "Yandex Sans Text";
@@ -68,9 +68,7 @@
             text-decoration: underline;
         }
     }
-    .choice__wrapp {
-        max-width: 400px;
-    }
+
     .choice__wrapp-inner {
         flex-wrap: nowrap;
         width: 100%;

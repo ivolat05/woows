@@ -169,3 +169,35 @@
         z-index: -1;
     }
 }
+
+@media (max-width: 769px) {
+    .header__wrapp-box {
+        display: none;
+    }
+
+    .header__wrapp-tell {
+        display: none;
+    }
+
+    .header__inner {
+        overflow-x: auto;
+        overflow-y: visible;
+    }
+
+    .header__form-input {
+        width: 210px;
+    }
+    .header {
+        margin-top: -5px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header {
+        margin-top: 0;
+        background: url("../../assets/img/header-2.png") no-repeat center center/cover;
+    }
+    .logo::after {
+        content: "";
+    }
+}
