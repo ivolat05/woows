@@ -4,6 +4,7 @@
 @import "../sass/vendor/jquery.timepicker.min.scss";
 @import "../sass/vendor/datepicker.min.scss";
 @import "../sass/vendor/magnific-popup.scss";
+@import "../sass/vendor/jquery.mCustomScrollbar.min.scss";
 
 * {
     box-sizing: border-box;
@@ -53,3 +54,4 @@ body {
 @import "../sass/blocks/schema.scss";
 @import "../sass/blocks/info.scss";
 @import "../sass/blocks/regist.scss";
+@import "../sass/blocks/mob.scss";

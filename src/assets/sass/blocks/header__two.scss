@@ -9,10 +9,6 @@
     align-items: center;
 }
 
-.menu-2 {
-    display: none;
-}
-
 .nav__list {
     width: 425px;
     display: flex;
@@ -26,5 +22,25 @@
         font-size: 16px;
         line-height: 12px;
         color: #000;
+    }
+}
+
+/*-media-*/
+@media (max-width: 767px) {
+    .nav {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 75px;
+    }
+
+    .nav__list-inner:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav__list {
+        width: 280px;
     }
 }

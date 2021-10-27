@@ -1,0 +1,117 @@
+.mob__menu {
+    background: #f7efc6;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -3333333;
+    overflow-y: auto;
+    height: 100vh;
+    transition: 0.4s;
+    transform: translateX(-200%);
+    opacity: 0;
+}
+
+.mob__menu-active {
+    transform: translateX(0);
+    z-index: 3333333;
+    opacity: 1;
+}
+
+.container {
+    position: relative;
+}
+.mob__header {
+    padding: 22px 36px;
+    background-image: linear-gradient(3deg, rgb(247, 114, 7) 0%, rgb(255, 188, 11) 100%);
+    .header__map {
+        padding-bottom: 17px;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .header__prof {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .prof {
+        span {
+            right: -17px;
+            background: #fde185;
+            color: #fb7000;
+            font-size: 10px;
+            line-height: 10px;
+            padding: 3px 6px;
+        }
+    }
+    .prof::before,
+    .map::before {
+        top: 2px;
+    }
+}
+
+.mob__nav {
+    background: url("../../assets/img/menu-icon.png") no-repeat center right, #f7efc6;
+    padding: 13px 38px 25px 38px;
+}
+
+.mob__list-link {
+    font-size: 16px;
+    line-height: 37px;
+    color: #000;
+    position: relative;
+    padding-top: 10px;
+    &::after {
+        content: url("../../assets/img/mob__line.png");
+        position: absolute;
+        top: 15px;
+        left: 0;
+    }
+    &:nth-last-child(1)::after {
+        content: "";
+    }
+}
+
+.mob__footer {
+    padding: 18px 34px 28px 34px;
+    background: url("../../assets/img/mob-back.png") repeat-x center bottom,
+        url("../../assets/img/mob-back-2.png") repeat-x center top;
+
+    h3 {
+        font-size: 12px;
+        line-height: 33px;
+        color: #f84707;
+    }
+    span {
+        font-size: 11px;
+        line-height: 33px;
+        color: #fff;
+        background: #15a340;
+        border-radius: 15px;
+        padding: 3px 10px;
+        margin-left: 10px;
+    }
+}
+
+.mob-link {
+    font-size: 29px;
+    line-height: 33px;
+    color: #47380c;
+    span {
+        font-size: 29px;
+        line-height: 33px;
+        background: #fff;
+        color: #fc4608;
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+.mob__footer-inner {
+    a {
+        font-size: 12px;
+        color: #47380c;
+    }
+}

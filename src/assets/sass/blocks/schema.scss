@@ -55,3 +55,12 @@
         line-height: 16px;
     }
 }
+
+@media (max-width: 770px) {
+    .schema__wrapp {
+        flex-direction: column;
+    }
+    .schema__wrapp-inner {
+        margin-bottom: 40px;
+    }
+}

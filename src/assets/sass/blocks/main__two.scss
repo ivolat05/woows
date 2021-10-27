@@ -97,3 +97,103 @@
     bottom: 37px;
     right: 98px;
 }
+
+/*-media-*/
+@media (max-width: 1020px) {
+    .main-2__wrapp-box h1 {
+        font-size: 36px;
+        line-height: 33px;
+    }
+    .main-2__wrapp {
+        max-width: 780px;
+    }
+    .btn-reg {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 12px 55px;
+    }
+    .main-2__inner-1 p,
+    .main-2__inner-2 p,
+    .main-2__inner-3 p {
+        font-size: 10px;
+        line-height: 8px;
+    }
+    .main-2__inner-1,
+    .main-2__inner-2,
+    .main-2__inner-3 {
+        width: 144px;
+    }
+
+    .main-2__wrapp-inner:before {
+        content: url("../../assets/img/mask-2.svg");
+
+        bottom: 184px;
+        right: 0;
+    }
+
+    .main-2__wrapp-inner::after {
+        content: url("../../assets/img/mask.svg");
+        position: absolute;
+        top: 120px;
+        right: 41px;
+    }
+    .main-2__inner-1 {
+        top: 62px;
+        right: 6px;
+    }
+
+    .main-2__inner-2 {
+        bottom: 67px;
+        left: 32px;
+    }
+    .main-2__inner-3 {
+        bottom: 34px;
+        right: 20px;
+    }
+    .main-2__wrapp-inner,
+    .main-2__wrapp-inner-2,
+    .main-2__wrapp-inner-3 {
+        img {
+            width: 30px;
+            height: 30px;
+        }
+        .main-2-img {
+            width: 380px;
+            height: 380px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .main-2__wrapp {
+        flex-direction: column-reverse;
+    }
+
+    .main-2 {
+        padding: 30px 0 68px;
+        overflow: hidden;
+        background: url("../../assets/img/m_back-5.svg") no-repeat bottom 40% left 10%, #fcf7e2;
+    }
+
+    .main-2__wrapp-inner::after {
+        content: url("../../assets/img/m.svg");
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 380px) {
+    .main-2__inner-1 {
+        top: 38px;
+        right: 41px;
+    }
+    .main-2__inner-2 {
+        left: 42px;
+    }
+
+    .main-2__inner-3 {
+        right: 43 px;
+    }
+}

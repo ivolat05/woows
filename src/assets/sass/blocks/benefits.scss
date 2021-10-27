@@ -52,3 +52,21 @@
         line-height: 20px;
     }
 }
+/*-media-*/
+@media (max-width: 994px) {
+    .benefits__wrapp-inner {
+        width: 345px;
+    }
+}
+
+@media (max-width: 769px) {
+    .benefits__wrapp-inner {
+        width: 380px;
+        margin: 0 auto;
+    }
+    .benefits {
+        .container {
+            overflow: hidden;
+        }
+    }
+}

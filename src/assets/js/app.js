@@ -2,6 +2,7 @@
 //= components/jquery.timepicker.min.js
 //= components/datepicker.min.js
 //= components/jquery.magnific-popup.js
+//= components/jquery.mCustomScrollbar.concat.min.js
 
 // slaiders
 $('.slaider__one').slick({
@@ -72,3 +73,34 @@ $('.catalog__box-img').magnificPopup({
         preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
     }
 });
+
+//burger
+
+$('.menu__burger').click(function () {
+    $('.menu__burger').toggleClass('burger__active'),
+        $('.mob__menu').toggleClass('mob__menu-active'),
+        $('body').toggleClass('look');
+});
+
+
+//scroll bar
+
+
+(function ($) {
+    let params = {};
+    // Инициализируем при загрузки DOM
+    initScrollbar($('.choice__wrapp-inner'), params);
+
+    // Инициализируем/разгрушаем по изменению окна браузера
+    $(window).on('resize', function () {
+        initScrollbar($('.choice__wrapp-inner'), params);
+    });
+
+    function initScrollbar($selector, options) {
+        if ($(window).width() > 770) {
+            if ($selector.data('mCS')) $selector.mCustomScrollbar('destroy');
+        } else {
+            $selector.mCustomScrollbar(options || {});
+        }
+    }
+})(jQuery);
