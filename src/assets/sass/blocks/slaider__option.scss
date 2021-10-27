@@ -19,3 +19,30 @@
         }
     }
 }
+
+.status__page {
+    position: relative;
+    .slick-dots {
+        position: absolute;
+        bottom: -70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    button {
+        margin: 4px;
+        text-indent: -9999px;
+        width: 31px;
+        height: 5px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: #baad7e;
+        border-radius: 0;
+    }
+    .slick-active {
+        button {
+            background: #000000;
+        }
+    }
+}

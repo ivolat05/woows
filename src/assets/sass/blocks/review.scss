@@ -117,3 +117,56 @@
     max-width: 610px;
     overflow: hidden;
 }
+
+/*-media-*/
+@media (max-width: 998px) {
+    .review {
+        background: url("../../assets/img/rew.png") repeat-x center center;
+        padding: 60px 0;
+    }
+    .review__container {
+        flex-direction: column;
+        position: relative;
+    }
+    .review__wrapp:after {
+        content: "";
+    }
+    .review-btn {
+        width: 290px;
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 769px) {
+    .slaider__two {
+        width: 400px;
+    }
+}
+
+@media (max-width: 540px) {
+}
+
+@media (max-width: 430px) {
+    .slaider__two {
+        width: 380px;
+    }
+    .slaider__two-box,
+    .slaider__two-box img {
+        width: 163px;
+        height: 159px;
+    }
+}
+
+@media (max-width: 378px) {
+    .slaider__two {
+        width: 310px;
+    }
+    .slaider__two-box,
+    .slaider__two-box img {
+        width: 150px;
+        height: 149px;
+    }
+}

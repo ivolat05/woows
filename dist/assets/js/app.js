@@ -29,19 +29,12 @@ $('.slaider__one').slick({
     arrows: false,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 998,
             settings: {
-                slidesToShow: 5,
+                slidesToShow: 1,
                 slidesToScroll: 1
             }
-        },
-        {
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 4
-            }
         }
-
     ]
 });
 
@@ -53,19 +46,29 @@ $('.slaider__two').slick({
     arrows: false,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 769,
             settings: {
-                slidesToShow: 5,
+                slidesToShow: 2,
                 slidesToScroll: 1
             }
-        },
+        }
+    ]
+});
+
+$('.status__page').slick({
+    infinite: true,
+    dots: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    responsive: [
         {
-            breakpoint: 992,
+            breakpoint: 998,
             settings: {
-                slidesToShow: 4
+                slidesToShow: 1,
+                slidesToScroll: 1
             }
         }
-
     ]
 });
 

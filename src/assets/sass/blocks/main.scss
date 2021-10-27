@@ -109,3 +109,53 @@
         }
     }
 }
+
+@media (max-width: 998px) {
+    .main__container {
+        padding-top: 40px;
+        background: url("../../assets/img/m-1-1.png") no-repeat left 0 top 90px,
+            url("../../assets/img/m-2-2.png") no-repeat right 5% top 90px;
+    }
+    .slaider__one {
+        width: 310px;
+        margin: 0 auto;
+    }
+
+    .slaider__one-box {
+        margin: 10px 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .main__title {
+        width: 300px;
+        margin: 0 auto;
+        h2 {
+            font-size: 22px;
+            line-height: 22px;
+            padding-left: 30px;
+            padding-bottom: 5px;
+        }
+        h1 {
+            font-size: 29px;
+            line-height: 22px;
+            padding-left: 30px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 5px;
+        }
+    }
+
+    .main__container {
+        background: url("../../assets/img/m-1-1.png") no-repeat left 0 top 90px,
+            url("../../assets/img/m-2-2.png") no-repeat right -20% top 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main__container {
+        background: url("../../assets/img/m-1-1.png") no-repeat left -50px top 90px,
+            url("../../assets/img/m-2-2.png") no-repeat right -120px top 90px;
+    }
+}

@@ -87,3 +87,15 @@
         }
     }
 }
+.choice__wrapp-box h3 {
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .choice__wrapp-box h3 {
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 29px;
+        padding-bottom: 10px;
+    }
+}
